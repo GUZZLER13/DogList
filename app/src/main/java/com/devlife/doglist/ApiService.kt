@@ -6,6 +6,7 @@ import retrofit2.http.Url
 
 interface ApiService {
 
+    //Requete de type GET
     @GET
     fun getDogsByBreeds(@Url url: String): Response<DogsResponse>
 }

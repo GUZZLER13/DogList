@@ -1,5 +1,5 @@
-# QUOTES GENERATOR
-## MVVM Pattern
+# DOG LIST
+
 
 
 -Retrofit 2, Coroutines, RecyclerView

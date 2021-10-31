@@ -8,5 +8,5 @@ interface ApiService {
 
     //Requete de type GET
     @GET
-    fun getDogsByBreeds(@Url url: String): Response<DogsResponse>
+    suspend fun getDogsByBreeds(@Url url: String): Response<DogsResponse>
 }
